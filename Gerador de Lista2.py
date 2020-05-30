@@ -2,7 +2,7 @@ def mostrar_lista(funcao):
     for valores in funcao:
         print(f'\033[1;32m - {valores}')
 
-
+# Código para gerar listas com Python
 def adicionar_tarefa():
     txt = input('\033[mDigite o item que deseja adicionar a lista: ').strip().title()
     lista.append(txt)
